@@ -1,4 +1,4 @@
-DSA Mini Project - Contact, Group, and Trip Management in Java
+SmartSplit - Contact, Group, and Trip Management in Java
 
 This project is a Java-based mini application that allows users to manage contacts, groups, transactions, and trips using various data structures. It provides a menu-driven command-line interface for all operations.
 
