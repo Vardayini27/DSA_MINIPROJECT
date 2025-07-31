@@ -1,29 +1,51 @@
-SmartSplit - Contact, Group, and Trip Management in Java
-
-This project is a Java-based mini application that allows users to manage contacts, groups, transactions, and trips using various data structures. It provides a menu-driven command-line interface for all operations.
+SmartSplit
+A Java-based command-line application for managing contacts, groups, transactions, and trips using fundamental data structures and OOP concepts. This project demonstrates practical usage of Binary Search Trees, HashMaps, and Lists to build a real-world information management system.
 
 Features
-Contact management using a binary search tree for efficient searching and insertion
-Add, search, and display contacts with name, phone number, and email
-Group management including the creation of groups, adding contacts to groups, and handling group-based transactions
-Transaction management for both groups and individuals, with ability to mark payments as done and record purposes
-Trip management to add trips with destinations and participants, and display trip details
-Menu-driven interface with clear prompts for all main operations
+Contact Management
 
-How to Compile and Run
-Make sure you have Java installed on your system
-Save the main code file as Main.java (or any name you prefer, just ensure the public class matches the file name)
-Open terminal and navigate to the project directory
-Compile the code with: javac Main.java
-Run the program with: java Main
+Add new contacts with name, phone number, and email.
+Search for contacts by name.
+Display all contacts in alphabetical order (implemented using a Binary Search Tree).
+Group Management
 
-Usage
-Follow the on-screen main menu prompts:
-Contact Management: add new contacts, search for a contact, or list all contacts
-Group Management: create groups, add contacts to groups, record and view transactions for groups
-Trip Management: add new trips with participants, display trip details
+Create groups and add contacts to them.
+Record transactions associated with groups or individuals (including amount, direction, purpose, and completion status).
+Display group details, including members and transaction history.
+Trip Management
 
-Each menu provides step-by-step prompts for user input. Data is stored in-memory and is lost when the program exits.
+Add new trips with destinations and participants.
+Display participants for a specific trip.
+Transaction Handling
+
+Log transactions for individuals or groups.
+Mark transactions as completed.
+Technologies Used
+Java Standard Library
+OOP Principles (Classes, Encapsulation)
+Data Structures: Binary Search Tree (BST), HashMap, ArrayList
+How to Run
+Clone the repository:
+
+Code
+git clone https://github.com/Vardayini27/DSA_MINIPROJECT.git
+Compile the Java code:
+
+Code
+javac Main.java
+Run the application:
+
+Code
+java Main
+Follow the interactive menu to manage contacts, groups, and trips.
 
 Project Structure
-Main.java: main Java source file containing all classes and main method
+Main.java — Main application file containing all logic.
+ContactBST: Manages contacts using a BST for efficient search and display.
+GroupManager: Handles groups, group membership, and group transactions.
+TripManager: Manages trips and their participants.
+Transaction: Represents a financial transaction with metadata.
+Example Usage
+Add contacts, then create a group and add members.
+Log transactions for group events or individual payments.
+Organize and track trip details and participants.
