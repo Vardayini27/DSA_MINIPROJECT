@@ -107,5 +107,3 @@ Follow the interactive menu to manage contacts, groups, transactions, and trips.
 * Clear object-oriented design and modular code organization
 * Efficient contact searching and ordered display using BST
 * Suitable for academic coursework and data structure demonstrations
-
-Just tell me.
